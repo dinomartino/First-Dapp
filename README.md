@@ -87,9 +87,9 @@ First-Dapp/
 
 ## About the Developer
 
-Hi, I'm [Tino](https://github.com/dinomartino), an aspiring Web3 full-stack developer learning through Cyfrin Updraft. This project is part of my journey to master Solidity, Web3.js, and decentralized app development.
+Hi, I'm [Tino](https://github.com/dinomartino), an aspiring Web3 full-stack developer learning through Cyfrin Updraft. This project is part of my journey to master Solidity, Web3.js, and decentralized app development. This README is created with the help of AI by the way. Hope one day i can really be a web3 developer hahahaahaha
 
 ## License
 
-[MIT License](LICENSE) - Feel free to use, modify, and distribute this project.
+MIT License - Feel free to use, modify, and distribute this project.
 
