@@ -5,6 +5,7 @@ let accounts
 let account
 // import { Web3 } from 'web3';
 // let web3 = new Web3("https://sepolia.drpc.org");
+web3 = new window.Web3(window.ethereum);
 
 const connectButton = document.getElementById("Connect")
 const IncrementButton = document.getElementById("Increment")
@@ -54,7 +55,7 @@ async function connectWallet() {
         }
         accounts = await window.ethereum.request({ method: "eth_requestAccounts" });
         account = accounts[0];
-        web3 = new window.Web3(window.ethereum);
+
         const chainId = await web3.eth.getChainId();
         contract = new web3.eth.Contract(abi, ContractAddress);
         console.log("Contract initialized:", contract);
