@@ -1,0 +1,34 @@
+{
+  "transactions": [
+    {
+      "hash": "0x2b9a7d16971e10f2e788e8997e4bf6eca4a5b16909879917f13aae82c4eb1b37",
+      "transactionType": "CREATE",
+      "contractName": "Increment",
+      "contractAddress": "0x7f27dd3845f0088282cb6a5de2840e08ee0af6ca",
+      "function": null,
+      "arguments": null,
+      "transaction": {
+        "from": "0x4817b4fa2406543cb980e76a8a305db9b47d4cbb",
+        "gas": "0x29501",
+        "value": "0x0",
+        "input": "0x60806040525f5f553480156011575f5ffd5b5061015b8061001f5f395ff3fe608060405234801561000f575f5ffd5b5060043610610034575f3560e01c80635b4ef8191461003857806376dad22314610042575b5f5ffd5b610040610060565b005b61004a610078565b6040516100579190610098565b60405180910390f35b5f5f815480929190610071906100de565b9190505550565b5f5f54905090565b5f819050919050565b61009281610080565b82525050565b5f6020820190506100ab5f830184610089565b92915050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b5f6100e882610080565b91507fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff820361011a576101196100b1565b5b60018201905091905056fea264697066735822122022befa1691fe51d06bfd009c6a0e0321499a0636ad38f81c394e53fb315abf3364736f6c634300081b0033",
+        "nonce": "0x0",
+        "chainId": "0xaa36a7"
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [],
+  "returns": {
+    "0": {
+      "internal_type": "contract Increment",
+      "value": "0x7F27DD3845F0088282Cb6A5dE2840E08Ee0Af6CA"
+    }
+  },
+  "timestamp": 1748599159,
+  "chain": 11155111,
+  "commit": "a63ff1b"
+}
